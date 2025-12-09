@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | Assistant</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" data-loading>Home</a>
+          <a href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a class="active" href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a href="register.html" data-loading>Register</a>
+          <a href="booking.html" data-loading>Booking</a>
+          <a href="calendar.html" data-loading>Calendar</a>
+          <a href="history.html" data-loading>History</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-header" data-animate>
+        <div>
+          <div class="badge">
+            <img src="./assets/icons/info.svg" width="16" alt="" /> AI help panel
+          </div>
+          <h1>Assistant</h1>
+          <p class="muted">Mock assistant responses for bookings, schedules, and guidance.</p>
+        </div>
+      </section>
+
+      <section class="assistant-grid" data-animate>
+        <div class="assistant-panel">
+          <h3>Suggested prompts</h3>
+          <ul>
+            <li>“Find a lab for 30 students next Tuesday.”</li>
+            <li>“Draft announcement for cultural night.”</li>
+            <li>“Summarize bookings this week.”</li>
+          </ul>
+        </div>
+        <div class="assistant-panel">
+          <h3>Response preview</h3>
+          <p class="muted">
+            Lab 3 is available 2–6pm Tuesday. Projector + sound package auto-added. Shall I confirm and publish to the calendar?
+          </p>
+          <button class="btn">Confirm mock action</button>
+        </div>
+        <div class="assistant-panel">
+          <h3>Knowledge snippets</h3>
+          <p class="muted">Approvals typically finalize within 24h. Safety checks required for events &gt; 80 attendees.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+

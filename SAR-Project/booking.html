@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | Booking</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" data-loading>Home</a>
+          <a href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a href="register.html" data-loading>Register</a>
+          <a class="active" href="booking.html" data-loading>Booking</a>
+          <a href="calendar.html" data-loading>Calendar</a>
+          <a href="history.html" data-loading>History</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="glass form-card" data-animate>
+        <div class="badge">
+          <img src="./assets/icons/calendar.svg" alt="calendar" width="18" /> Book an activity
+        </div>
+        <h2>Reserve your next event</h2>
+        <p>Pick your event, date, and resources; we will notify the coordinators instantly.</p>
+        <div class="booking-card">
+          <form id="booking-form">
+            <div class="field">
+              <label for="event">Event Name</label>
+              <input id="event" name="event" placeholder="Tech Meetup" required />
+            </div>
+            <div class="inline">
+              <div class="field">
+                <label for="type">Type</label>
+                <select id="type" name="type">
+                  <option>Workshop</option>
+                  <option>Competition</option>
+                  <option>Social</option>
+                  <option>Sports</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="location">Location</label>
+                <input id="location" name="location" placeholder="Main Hall A" required />
+              </div>
+            </div>
+            <div class="inline">
+              <div class="field">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+              <div class="field">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required />
+              </div>
+            </div>
+            <button class="btn" type="submit">Confirm Booking</button>
+          </form>
+          <div class="floating-card">
+            <div class="chip">
+              <img src="./assets/icons/box.svg" alt="resources" width="18" /> Required Resources
+            </div>
+            <p>We will reserve these resources automatically when you confirm.</p>
+            <div class="resource-list"></div>
+            <div class="pill">
+              <img src="./assets/icons/shield.svg" alt="safety" width="18" /> Safety & compliance checked
+            </div>
+            <div class="pill">
+              <img src="./assets/icons/clock.svg" alt="time" width="18" /> Response within 24 hours
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/booking.js"></script>
+  </body>
+</html>
+

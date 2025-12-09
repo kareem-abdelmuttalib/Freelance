@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | Register</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" data-loading>Home</a>
+          <a href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a class="active" href="register.html" data-loading>Register</a>
+          <a href="booking.html" data-loading>Booking</a>
+          <a href="calendar.html" data-loading>Calendar</a>
+          <a href="history.html" data-loading>History</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="glass form-card" data-animate>
+        <div class="badge">
+          <img src="./assets/icons/user.svg" alt="user" width="18" /> Student Registration
+        </div>
+        <h2>Join SAR activities</h2>
+        <p>Register once to access all bookings, calendars, and history.</p>
+        <form id="register-form" novalidate>
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Sara El-Sayed" required />
+            <span class="error"></span>
+          </div>
+          <div class="inline">
+            <div class="field">
+              <label for="studentId">Student ID</label>
+              <input type="text" id="studentId" name="studentId" placeholder="20251234" required />
+              <span class="error"></span>
+            </div>
+            <div class="field">
+              <label for="college">College</label>
+              <select id="college" name="college">
+                <option>FCAI</option>
+                <option>Engineering</option>
+                <option>Medicine</option>
+                <option>Business</option>
+              </select>
+              <span class="error"></span>
+            </div>
+          </div>
+          <div class="field inline">
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@nmu.edu.eg" required />
+              <span class="error"></span>
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="••••••••" required />
+              <span class="error"></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="activity">Activity Type</label>
+            <select id="activity" name="activity">
+              <option>Tech & Innovation</option>
+              <option>Sports & Wellness</option>
+              <option>Arts & Culture</option>
+              <option>Community Impact</option>
+            </select>
+            <span class="error"></span>
+          </div>
+          <button class="btn" type="submit">Register</button>
+          <p class="success" style="display: none"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/register.js"></script>
+  </body>
+</html>
+

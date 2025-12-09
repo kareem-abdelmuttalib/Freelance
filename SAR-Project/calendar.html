@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | Calendar</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" data-loading>Home</a>
+          <a href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a href="register.html" data-loading>Register</a>
+          <a href="booking.html" data-loading>Booking</a>
+          <a href="history.html" data-loading>History</a>
+          <a class="active" href="calendar.html" data-loading>Calendar</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="calendar" data-animate>
+        <div class="calendar-header">
+          <div>
+            <div class="badge">
+              <img src="./assets/icons/calendar.svg" alt="calendar" width="18" /> Activity Calendar
+            </div>
+            <h2 id="month-label">Month</h2>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+            <div class="view-switcher">
+              <button class="active" data-view="month">Month</button>
+              <button data-view="week">Week</button>
+              <button data-view="year">Year</button>
+            </div>
+            <div class="view-switcher">
+              <button id="prev-month">◀</button>
+              <button id="next-month">▶</button>
+            </div>
+          </div>
+        </div>
+        <div class="calendar-grid"></div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/calendar.js"></script>
+  </body>
+</html>
+

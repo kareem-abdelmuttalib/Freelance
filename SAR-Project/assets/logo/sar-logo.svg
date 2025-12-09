@@ -1,0 +1,15 @@
+<svg width="180" height="60" viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="sarGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0f4ba6"/>
+    <stop offset="50%" stop-color="#3aaed8"/>
+    <stop offset="100%" stop-color="#7dd1f5"/>
+  </linearGradient>
+</defs>
+<rect x="2" y="2" width="176" height="56" rx="14" fill="#0b1526" stroke="url(#sarGrad)" stroke-width="3"/>
+<path d="M36 16C26 16 18 24 18 34C18 44 26 52 36 52C46 52 54 44 54 34C54 24 46 16 36 16ZM36 22C42.6274 22 48 27.3726 48 34C48 40.6274 42.6274 46 36 46C29.3726 46 24 40.6274 24 34C24 27.3726 29.3726 22 36 22Z" fill="url(#sarGrad)"/>
+<path d="M34 26H38V42H34V26Z" fill="url(#sarGrad)"/>
+<path d="M30 30H42V34H30V30Z" fill="url(#sarGrad)"/>
+<text x="68" y="38" fill="white" font-family="Space Grotesk, Inter, sans-serif" font-size="22" font-weight="700">SAR · FCAI</text>
+</svg>
+

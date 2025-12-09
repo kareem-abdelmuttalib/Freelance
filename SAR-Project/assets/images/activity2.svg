@@ -1,0 +1,20 @@
+<svg width="480" height="320" viewBox="0 0 480 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#102342"/>
+    <stop offset="50%" stop-color="#1e62ad"/>
+    <stop offset="100%" stop-color="#4ea8ff"/>
+  </linearGradient>
+</defs>
+<rect width="480" height="320" rx="26" fill="url(#grad2)"/>
+<rect x="60" y="70" width="360" height="40" rx="12" fill="rgba(255,255,255,0.10)"/>
+<circle cx="120" cy="90" r="18" fill="rgba(255,255,255,0.35)"/>
+<rect x="60" y="140" width="360" height="22" rx="11" fill="rgba(255,255,255,0.18)"/>
+<rect x="60" y="180" width="360" height="90" rx="18" fill="rgba(255,255,255,0.12)"/>
+<rect x="80" y="200" width="120" height="50" rx="14" fill="rgba(255,255,255,0.25)"/>
+<rect x="220" y="200" width="120" height="50" rx="14" fill="rgba(255,255,255,0.25)"/>
+<rect x="360" y="200" width="60" height="50" rx="14" fill="rgba(255,255,255,0.25)"/>
+<path d="M90 240C100 230 108 218 120 210C132 218 140 230 150 240" stroke="white" stroke-width="6" stroke-linecap="round"/>
+<circle cx="120" cy="206" r="10" fill="white"/>
+</svg>
+

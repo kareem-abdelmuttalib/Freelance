@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | Dashboard</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" data-loading>Home</a>
+          <a class="active" href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a href="register.html" data-loading>Register</a>
+          <a href="booking.html" data-loading>Booking</a>
+          <a href="calendar.html" data-loading>Calendar</a>
+          <a href="history.html" data-loading>History</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="dashboard-hero" data-animate>
+        <div class="badge">
+          <img src="./assets/icons/flash.svg" width="16" alt="" /> Executive overview
+        </div>
+        <h1>Dashboard</h1>
+        <p class="muted">Live snapshot of bookings, engagement, and upcoming events.</p>
+      </section>
+
+      <section class="stat-cards" data-animate>
+        <div class="card stat-card">
+          <p class="muted">Active students</p>
+          <strong data-counter="2400">0</strong>
+          <div class="badge-ghost">+12% this term</div>
+        </div>
+        <div class="card stat-card">
+          <p class="muted">Confirmed events</p>
+          <strong data-counter="86">0</strong>
+          <div class="badge-ghost">8 awaiting approval</div>
+        </div>
+        <div class="card stat-card">
+          <p class="muted">Resources booked</p>
+          <strong data-counter="42">0</strong>
+          <div class="badge-ghost">5 labs in use</div>
+        </div>
+        <div class="card stat-card">
+          <p class="muted">Avg. approval time</p>
+          <strong data-counter="24">0</strong><span>h</span>
+          <div class="badge-ghost">Target: &lt; 18h</div>
+        </div>
+      </section>
+
+      <section class="tile-grid" data-animate>
+        <div class="card table-card">
+          <div class="section-header" style="margin-bottom:10px;">
+            <h2>Upcoming bookings</h2>
+            <div class="badge">This week</div>
+          </div>
+          <table class="table" aria-label="Upcoming bookings">
+            <thead>
+              <tr><th>Event</th><th>Type</th><th>Date</th><th>Location</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>AI Innovation Sprint</td><td>Hackathon</td><td>Mar 04</td><td>Lab 3</td></tr>
+              <tr><td>Football Finals</td><td>Sports</td><td>Mar 10</td><td>Main Field A</td></tr>
+              <tr><td>Design Sprint</td><td>Workshop</td><td>Mar 15</td><td>Innovation Hub</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card table-card">
+          <div class="section-header" style="margin-bottom:10px;">
+            <h2>Recent activity</h2>
+            <div class="badge">Logs</div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <h3>Booking approved</h3>
+                <p class="muted">Innovation Hub · Design Sprint · 15 Mar</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <h3>New club request</h3>
+                <p class="muted">Media Guild added 12 members</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <h3>Resource handoff</h3>
+                <p class="muted">Projector kit returned · Lab 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+

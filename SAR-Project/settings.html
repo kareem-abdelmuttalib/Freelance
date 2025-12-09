@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | Settings</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" data-loading>Home</a>
+          <a href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a href="register.html" data-loading>Register</a>
+          <a href="booking.html" data-loading>Booking</a>
+          <a href="calendar.html" data-loading>Calendar</a>
+          <a href="history.html" data-loading>History</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a class="active" href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-header" data-animate>
+        <div>
+          <div class="badge">
+            <img src="./assets/icons/shield.svg" width="16" alt="" /> Preferences
+          </div>
+          <h1>Settings</h1>
+          <p class="muted">Profile, notifications, and accessibility options (mock).</p>
+        </div>
+      </section>
+
+      <section class="settings-grid" data-animate>
+        <div class="card">
+          <h3>Profile</h3>
+          <form class="settings-form">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" placeholder="Alex Morgan" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@nmu.edu.eg" />
+            </div>
+            <button class="btn" type="button">Save profile</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Notifications</h3>
+          <div class="toggle">
+            <span>Email approvals</span>
+            <input type="checkbox" checked aria-label="Email approvals" />
+          </div>
+          <div class="toggle">
+            <span>SMS reminders</span>
+            <input type="checkbox" aria-label="SMS reminders" />
+          </div>
+          <div class="toggle">
+            <span>Weekly digest</span>
+            <input type="checkbox" checked aria-label="Weekly digest" />
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Appearance</h3>
+          <p class="muted">Dark theme is active. Light toggle coming soon.</p>
+          <button class="btn btn-outline" type="button">Stay on dark</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+

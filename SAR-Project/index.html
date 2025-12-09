@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAR | FCAI Student Activities Repository</title>
+    <link rel="icon" href="./assets/logo/sar-logo.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./assets/logo/sar-logo.svg" alt="SAR Logo" />
+          <span>SAR · FCAI</span>
+        </div>
+        <div class="nav-links">
+          <a class="active" href="index.html" data-loading>Home</a>
+          <a href="dashboard.html" data-loading>Dashboard</a>
+          <a href="chat.html" data-loading>Chat</a>
+          <a href="assistant.html" data-loading>Assistant</a>
+          <a href="models.html" data-loading>Models</a>
+          <a href="register.html" data-loading>Register</a>
+          <a href="booking.html" data-loading>Booking</a>
+          <a href="calendar.html" data-loading>Calendar</a>
+          <a href="history.html" data-loading>History</a>
+          <a href="resources.html" data-loading>Resources</a>
+          <a href="clubs.html" data-loading>Clubs</a>
+          <a href="settings.html" data-loading>Settings</a>
+          <a href="contact.html" data-loading>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" data-animate>
+        <div>
+          <div class="badge">
+            <img src="./assets/icons/flash.svg" alt="flash" width="18" /> Launching 2025 Edition
+          </div>
+          <h1>Student Activities Repository</h1>
+          <p>
+            Discover, reserve, and celebrate every activity at New Mansoura University's FCAI.
+            Modern scheduling, transparent bookings, and vibrant community moments—all in one place.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="register.html" data-loading>Get Started</a>
+            <a class="btn btn-outline" href="#categories" data-loading>Browse Activities</a>
+          </div>
+        </div>
+        <div class="floating-card">
+          <h3>Live Highlights</h3>
+          <p class="muted">Curated today for you</p>
+          <div class="pill">
+            <img src="./assets/icons/calendar.svg" alt="calendar" width="18" /> AI Innovation Sprint · 4 teams joined
+          </div>
+          <div class="pill">
+            <img src="./assets/icons/map-pin.svg" alt="location" width="18" /> Robotics Lab · Lab 3 · 3:00 PM
+          </div>
+          <div class="pill">
+            <img src="./assets/icons/users.svg" alt="users" width="18" /> 120+ participants this week
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="categories" data-animate>
+        <div class="section-header">
+          <h2>Activity Categories</h2>
+          <div class="chip">
+            <img src="./assets/icons/sparkles.svg" alt="sparkles" width="18" /> Curated for students
+          </div>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <img src="./assets/images/activity1.svg" alt="Technology" />
+            <h3>Tech & Innovation</h3>
+            <p>Hackathons, AI labs, code sprints, and maker sessions with mentors.</p>
+          </div>
+          <div class="card">
+            <img src="./assets/images/activity2.svg" alt="Sports" />
+            <h3>Sports & Wellness</h3>
+            <p>Football leagues, swimming meets, mindfulness workshops, and more.</p>
+          </div>
+          <div class="card">
+            <img src="./assets/images/event-placeholder.svg" alt="Arts" />
+            <h3>Arts & Culture</h3>
+            <p>Exhibitions, performances, music nights, and creative studio hours.</p>
+          </div>
+          <div class="card">
+            <img src="./assets/images/activity1.svg" alt="Community" />
+            <h3>Community Impact</h3>
+            <p>Volunteering, sustainability drives, mentorship circles, campus care.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" data-animate>
+        <div>
+          <div class="chip">
+            <img src="./assets/icons/info.svg" alt="info" width="18" /> Why SAR
+          </div>
+          <h2>About SAR</h2>
+          <p>
+            SAR (Student Activities Repository) centralizes every FCAI activity—planning, booking,
+            resources, and timelines. Built to streamline coordination between students, clubs, and
+            faculty advisors.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="booking.html" data-loading>Book an activity</a>
+            <a class="btn btn-outline" href="calendar.html" data-loading>View calendar</a>
+          </div>
+        </div>
+        <img src="./assets/images/event-placeholder.svg" alt="Students collaborating" />
+      </section>
+
+      <section class="categories" data-animate>
+        <div class="section-header">
+          <h2>Impact in numbers</h2>
+          <div class="chip">
+            <img src="./assets/icons/star.svg" alt="star" width="18" /> Real-time SAR metrics
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="badge"><img src="./assets/icons/users.svg" width="16" alt="" /> Active Students</div>
+            <h3><span data-counter="2400">0</span>+</h3>
+            <p>Students registered across FCAI activities</p>
+          </div>
+          <div class="stat-card">
+            <div class="badge"><img src="./assets/icons/calendar.svg" width="16" alt="" /> Events This Term</div>
+            <h3><span data-counter="86">0</span></h3>
+            <p>Confirmed bookings and on-campus happenings</p>
+          </div>
+          <div class="stat-card">
+            <div class="badge"><img src="./assets/icons/shield.svg" width="16" alt="" /> Resources Ready</div>
+            <h3><span data-counter="42">0</span></h3>
+            <p>Venues, labs, and shared assets tracked centrally</p>
+          </div>
+          <div class="stat-card">
+            <div class="badge"><img src="./assets/icons/clock.svg" width="16" alt="" /> Avg. Approval</div>
+            <h3><span data-counter="24">0</span>h</h3>
+            <p>Typical turnaround from request to confirmation</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" data-animate>
+        <div class="section-header">
+          <h2>Activity lifecycle</h2>
+          <div class="chip">
+            <img src="./assets/icons/flash.svg" alt="spark" width="18" /> From idea to impact
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Ideate & register</h3>
+              <p class="muted">Student leaders submit goals, target audience, and preferred slots.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Book venues & resources</h3>
+              <p class="muted">SAR auto-checks halls, labs, and equipment availability with hold windows.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Publish & promote</h3>
+              <p class="muted">Events land on the calendar with social tiles and QR-friendly summaries.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Celebrate & archive</h3>
+              <p class="muted">After-action notes, attendance snapshots, and media archived in history.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" data-animate>
+        <div class="section-header">
+          <h2>Voices from campus</h2>
+          <div class="chip">
+            <img src="./assets/icons/quote.svg" alt="quote" width="18" /> Testimonials
+          </div>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="badge"><img src="./assets/icons/user.svg" width="16" alt="" /> AI Club Lead</div>
+            <p class="quote">“Bookings that used to take days now take minutes. SAR keeps our hackathons on track.”</p>
+            <p class="author">Nour Hassan</p>
+            <p class="muted">BSc CS · 2026</p>
+          </div>
+          <div class="testimonial">
+            <div class="badge"><img src="./assets/icons/user.svg" width="16" alt="" /> Sports Coordinator</div>
+            <p class="quote">“Seeing field availability and resources in one place cut clashes to almost zero.”</p>
+            <p class="author">Omar El-Masry</p>
+            <p class="muted">Athletics Office</p>
+          </div>
+          <div class="testimonial">
+            <div class="badge"><img src="./assets/icons/user.svg" width="16" alt="" /> Faculty Advisor</div>
+            <p class="quote">“I can review, approve, and track risk notes quickly. Great oversight with minimal clicks.”</p>
+            <p class="author">Dr. Mariam Adel</p>
+            <p class="muted">Assistant Professor</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" data-animate>
+        <div class="section-header">
+          <h2>Frequently asked questions</h2>
+          <div class="chip">
+            <img src="./assets/icons/info.svg" alt="info" width="18" /> Quick answers
+          </div>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>How do I request a venue for my club?</summary>
+            <p class="muted">Submit a booking via the Booking page with your preferred slot; SAR suggests alternates automatically.</p>
+          </details>
+          <details>
+            <summary>Can I edit a booking after submission?</summary>
+            <p class="muted">Yes, resubmit the form with the updated details; coordinators receive a diff and re-approve quickly.</p>
+          </details>
+          <details>
+            <summary>Where do I see my past events?</summary>
+            <p class="muted">Head to History to view cards and open modal details with photos and notes.</p>
+          </details>
+          <details>
+            <summary>Who can approve activities?</summary>
+            <p class="muted">Faculty advisors and activity coordinators receive notifications and can respond within 24 hours.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="cta-banner" data-animate>
+        <div>
+          <div class="badge">
+            <img src="./assets/icons/sparkles.svg" alt="" width="18" /> Ready to launch?
+          </div>
+          <h2>Plan your next activity with SAR</h2>
+          <p class="muted">Create your booking, add resources, and publish to the calendar in minutes.</p>
+          <div class="hero-actions">
+            <a class="btn" href="booking.html" data-loading>Book now</a>
+            <a class="btn btn-outline" href="register.html" data-loading>Register team</a>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h3>Get weekly highlights</h3>
+          <p class="muted">Upcoming events, open slots, and featured clubs straight to your inbox.</p>
+          <form>
+            <input type="email" placeholder="you@nmu.edu.eg" required />
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <div class="partners">
+            <div class="pill-ghost">FCAI</div>
+            <div class="pill-ghost">Student Union</div>
+            <div class="pill-ghost">Athletics</div>
+            <div class="pill-ghost">Media Center</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <div class="logo">
+            <img src="./assets/logo/sar-logo.svg" alt="logo" />
+            <span>SAR · FCAI</span>
+          </div>
+          <p>New Mansoura University · Faculty of Computer and Artificial Intelligence.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="register.html">Registration</a></p>
+          <p><a href="booking.html">Book Events</a></p>
+          <p><a href="history.html">Activity History</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>+20 111 555 2025</p>
+          <p>student.activities@nmu.edu.eg</p>
+          <p>KM 100, International Coastal Road, New Mansoura</p>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <div class="socials">
+            <a href="#"><img src="./assets/icons/facebook.svg" alt="fb" width="18" /></a>
+            <a href="#"><img src="./assets/icons/twitter.svg" alt="twitter" width="18" /></a>
+            <a href="#"><img src="./assets/icons/instagram.svg" alt="ig" width="18" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+
